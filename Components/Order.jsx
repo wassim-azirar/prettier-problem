@@ -10,7 +10,6 @@ class Order extends React.Component {
 
     return (
       <div className={nameOfClass}>
-        {labelAndSubLabel}
         <div className={nameOfClass}>
           <span>{label}</span>
         </div>
