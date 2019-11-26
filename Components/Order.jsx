@@ -9,7 +9,7 @@ class Order extends React.Component {
     const { label, nameOfClass } = this.props;
 
     return (
-      <div className={nameOfClass}>
+      <div>
         <div className={nameOfClass}>
           <span>{label}</span>
         </div>
